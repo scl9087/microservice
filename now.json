@@ -4,5 +4,5 @@
   "builds": [
     { "src": "*.js", "use": "@now/node" }
   ],
-  "env": { "APP_ID": "@APP_ID", "SECRET_ID": "@SECRET_ID" }
+  "env": { "APP_ID": "@app_id", "SECRET_ID": "@secret_id" }
 }

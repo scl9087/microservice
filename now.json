@@ -2,7 +2,6 @@
   "version": 2,
   "name": "microservice",
   "builds": [
-    { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } },
     { "src": "*.js", "use": "@now/node" }
   ]
 }

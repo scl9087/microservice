@@ -4,6 +4,8 @@ const cors = require('cors');
 require('dotenv').config()
 console.log(require('dotenv').config())
 
+const dotenv = require('dotenv');
+dotenv.config();
 const port = 4000;
 // App id for PetFinder
 const APP_ID = process.env.APP_ID;
